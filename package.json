@@ -1,0 +1,40 @@
+{
+  "name": "string-has",
+  "version": "1.0.0",
+  "description": "Check whether string contains another string, or one of many strings. Supports locale and case-sensitive / case-insensitive matching.",
+  "license": "MIT",
+  "repository": "nijikokun/string-has",
+  "author": {
+    "name": "Nijiko Yonskai",
+    "email": "nijikokun@gmail.com",
+    "url": "https://nijikokun.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo --space && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "string",
+    "contains",
+    "has",
+    "string-has",
+    "substrings",
+    "matches",
+    "array",
+    "list",
+    "locale",
+    "case-sensitive",
+    "case-insensitive",
+    "casing"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^2.1.0",
+    "xo": "^0.24.0"
+  }
+}
